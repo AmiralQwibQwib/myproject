@@ -8,4 +8,4 @@ if (file_exists(DIR . '/.env')) {
     $dotenv->load();
 }
 
-$_ENV["MESSAGE"];
+echo $_ENV["MESSAGE"];
