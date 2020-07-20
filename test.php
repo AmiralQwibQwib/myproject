@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-require_once DIR. '/vendor/autoload.php';
+require_once __DIR__. '/vendor/autoload.php';
 
-if (file_exists(DIR . '/.env')) {
-    $dotenv = \Dotenv\Dotenv::createImmutable(DIR);
+if (file_exists(__DIR__ . '/.env')) {
+    $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
     $dotenv->load();
 }
 
