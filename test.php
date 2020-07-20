@@ -8,7 +8,6 @@ if (file_exists(__DIR__ . '/.env')) {
     $dotenv->load();
 }
 
-echo $_ENV["MESSAGE"];
 
 $host = $_ENV['DB_HOST'];
     $dbname = $_ENV['DB_NAME'];
